@@ -1,0 +1,138 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box; 
+}
+/*Rubic*/
+@font-face{
+    font-family: rubicLight;
+    src: url("fonts/Rubik-Light.ttf");
+}
+@font-face{
+    font-family: rubicRegular;
+    src: url("fonts/Rubik-Regular.ttf")
+}
+@font-face{
+    font-family: rubicMedium;
+    src: url("fonts/Rubik-Medium.ttf");
+}
+@font-face{
+    font-family: rubicSemiBold;
+    src: url("fonts/Rubik-SemiBold.ttf");
+}
+
+/*Roboto*/
+@font-face{
+    font-family: robotoRegular;
+    src: url("fonts/Roboto-Regular.ttf");
+}
+@font-face{
+    font-family: robotoMedium;
+    src: url("fonts/Roboto-Medium.ttf");
+}
+/*relevent for HTML*/
+
+.container{
+    max-width: 1140px;
+    width: 90%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/*hero*/
+#hero{
+    background: url("img/home-banner.jpg") no-repeat center bottom/cover ;
+}
+/*navbar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.navigation_menu{
+    display: flex;
+    align-items: center;
+}
+.navigation_menu ul li{
+    display: inline;
+}
+.navigation_menu ul li a{
+    color: #002347;
+    font-family: rubicMedium;
+    font-size: 14px;
+    padding-right: 40px;
+}
+.navigation_menu ul li:hover a{
+    color: #fdc632;
+}
+.search a{
+    color: #002347;
+}
+#hero .content{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+}
+.content p{
+    font-family: robotoMedium;
+    font-size: 20px ;
+    text-transform: uppercase;
+    color: #002347;
+}
+.content h2{
+    font-family: rubicMedium;
+    text-transform: uppercase;
+    font-size: 45px;
+    margin-top: 20px;
+}
+.button-group{
+    margin-top: 50px;
+}
+.btn{
+    font-family: robotoMedium;
+    font-size: 13px ;
+    text-transform: uppercase;
+    padding: 18px 40px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.btn-regular{
+    background: #fdc632;
+    color: #002347;
+    transition: 0.3s;
+    border: 2px solid #fdc632;
+}
+.btn-regular:hover{
+    background: #002347 ;
+    color: #fdc632 ;
+    border: 2px solid #002347;
+}
+.btn-secondary{
+    background: #002347;
+    color: #fdc632;
+    transition: 0.3s;
+    border: 2px solid #002347 ;
+}
+.btn-secondary:hover{
+    background: transparent ;
+    color: #002347;
+    border: 2px solid #002347;
+}
+
+
+
+
+
+
+
+
+
+
+
